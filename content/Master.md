@@ -80,5 +80,19 @@ else
 |               |[Advanced Topics: GANs](../lecture24-details.html)                                                                         |
 |---------------|---------------------------------------------------------------------------------------------------------------------------|
 
+<form>
+<h>Comments:</h>
+<textarea id="words" rows="10" cols="20"></textarea>
+<input type="button" onclick="getwords()" value="Enter" /> <br>
+<p id="para"></p>
+</form>
+
+<script type="text/javascript">
+function getwords() {
+  text = words.value;
+  document.getElementById("para").innerHTML += '<p>'+text
+  document.getElementById("words").value = " "
+}
+</script>
 
 
