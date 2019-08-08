@@ -261,8 +261,39 @@ else
 <td>---------------</td>
 <td>---------------------------------------------------------------------------------------------------------------------------</td>
 </tr>
+<tr>
+<td><form></td>
+<td></td>
+</tr>
+<tr>
+<td><h>Comments:</h></td>
+<td></td>
+</tr>
+<tr>
+<td><textarea id="words" rows="10" cols="20"></textarea></td>
+<td></td>
+</tr>
+<tr>
+<td><input type="button" onclick="getwords()" value="Enter" /> <br></td>
+<td></td>
+</tr>
+<tr>
+<td><p id="para"></p></td>
+<td></td>
+</tr>
+<tr>
+<td></form></td>
+<td></td>
+</tr>
 </tbody>
-</table>                </article>
+</table>
+<script type="text/javascript">
+function getwords() {
+  text = words.value;
+  document.getElementById("para").innerHTML += '<p>'+text
+  document.getElementById("words").value = " "
+}
+</script>                </article>
             </aside><!-- /#featured -->
         <section id="extras" class="body">
                 <div class="blogroll">

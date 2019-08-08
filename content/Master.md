@@ -79,7 +79,6 @@ else
 |               |[Siamese Networks](../lecture23-details.html)                                                                              |
 |               |[Advanced Topics: GANs](../lecture24-details.html)                                                                         |
 |---------------|---------------------------------------------------------------------------------------------------------------------------|
-
 <form>
 <h>Comments:</h>
 <textarea id="words" rows="10" cols="20"></textarea>
