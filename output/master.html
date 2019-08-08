@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
         <meta charset="utf-8" />
-        <title>Master</title>
-        <link rel="stylesheet" href="./theme/css/main.css" />
+        <title>AIML Content - Master</title>
+        <link rel="stylesheet" href="../theme/css/main.css" />
 
         <!--[if IE]>
             <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -12,23 +12,18 @@
 
 <body id="index" class="home">
         <header id="banner" class="body">
-                <h1><a href="./">AIML Content </a></h1>
+                <h1><a href="../">AIML Content </a></h1>
                 <nav><ul>
-                    <li class="active"><a href="./category/master.html">Master</a></li>
-                    <li><a href="./category/moduel-1.html">Moduel 1</a></li>
-                    <li><a href="./category/moduel-2.html">Moduel 2</a></li>
-                    <li><a href="./category/moduel-3.html">Moduel 3</a></li>
+                    <li class="active"><a href="../category/master.html">Master</a></li>
+                    <li><a href="../category/moduel-1.html">Moduel 1</a></li>
+                    <li><a href="../category/moduel-2.html">Moduel 2</a></li>
+                    <li><a href="../category/moduel-3.html">Moduel 3</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
-<section id="content" class="body">
-  <article>
-    <header>
-      <h1 class="entry-title">
-        <a href="./master.html" rel="bookmark"
-           title="Permalink to Master">Master</a></h1>
-    </header>
 
-    <div class="entry-content">
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="../master.html">Master</a></h1>
 <footer class="post-info">
         <abbr class="published" title="2019-07-23T23:39:00+05:30">
                 Published: Tue 23 July 2019
@@ -39,11 +34,11 @@
         </abbr>
 
         <address class="vcard author">
-                By                         <a class="url fn" href="./author/talentsprint.html">TalentSprint</a>
+                By                         <a class="url fn" href="../author/talentsprint.html">TalentSprint</a>
         </address>
-<p>In <a href="./category/master.html">Master</a>.</p>
+<p>In <a href="../category/master.html">Master</a>.</p>
 
-</footer><!-- /.post-info -->      <SCRIPT language="JavaScript">
+</footer><!-- /.post-info --><SCRIPT language="JavaScript">
 <!--hide
 
 var password;
@@ -266,12 +261,40 @@ else
 <td>---------------</td>
 <td>---------------------------------------------------------------------------------------------------------------------------</td>
 </tr>
+<tr>
+<td><form></td>
+<td></td>
+</tr>
+<tr>
+<td><h>Comments:</h></td>
+<td></td>
+</tr>
+<tr>
+<td><textarea id="words" rows="10" cols="20"></textarea></td>
+<td></td>
+</tr>
+<tr>
+<td><input type="button" onclick="getwords()" value="Enter" /> <br></td>
+<td></td>
+</tr>
+<tr>
+<td><p id="para"></p></td>
+<td></td>
+</tr>
+<tr>
+<td></form></td>
+<td></td>
+</tr>
 </tbody>
 </table>
-    </div><!-- /.entry-content -->
-
-  </article>
-</section>
+<script type="text/javascript">
+function getwords() {
+  text = words.value;
+  document.getElementById("para").innerHTML += '<p>'+text
+  document.getElementById("words").value = " "
+}
+</script>                </article>
+            </aside><!-- /#featured -->
         <section id="extras" class="body">
                 <div class="blogroll">
                         <h2>blogroll</h2>
